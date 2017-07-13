@@ -1,0 +1,354 @@
+@font-face{
+	font-family: principal;
+	src: url("../fonts/shadows-into-light-two-regular.ttf");
+}
+@font-face{
+	font-family: subtittle;
+	src: url("../fonts/eras-light.ttf");
+}
+@font-face{
+	font-family: welcome;
+	src: url("../fonts/gloss-and-bloom.ttf");
+}
+@font-face{
+	font-family: name;
+	src: url("../fonts/cartoon-marker.ttf");
+}
+body{
+	margin-right: auto;
+	margin-left: auto;
+}
+.container{
+	background-color: #fa3030;
+	
+}
+.header{
+	
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	align-content: center;
+	align-items: center;
+	color: #fff;
+	padding-top: 20px;
+}
+	.header__name{
+		font-family: principal, sans-serif;
+		margin-left: auto;
+		margin-right: auto;
+		margin: 0;
+	}
+	.header__list{
+		font-family: subtittle, sans-serif;
+		margin-right: auto;
+		margin-left: auto;
+	}
+.menu{
+	display: flex;
+	list-style: none;
+
+}
+	.menu__item{
+		
+		
+	}
+	.menu__link{
+		text-decoration: none;
+		color: #fff;
+		padding: 26px;
+		transition: all 0.5s;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.menu__link:hover{
+		background-color: #2e2a21;
+		color: #fff;
+	}
+.subtitle{
+	height: 600px;
+	font-family: welcome, sans-serif;
+	background-image: url("../image/cabecera.jpg");
+	background-size: cover;
+	margin:0;
+	font-size: 50px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.section1{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+}
+	.section1__name{
+		background-color: #fa3030;
+		color: #fff;
+	font-family: principal, sans-serif;
+	margin:0;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom:20px;
+
+	}
+.name{
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	width: 1000px;
+}
+	.name__image{
+		margin: 0;
+	}
+	.name__description{
+		align-items: center;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+	}
+	.autor{
+		font-family: name, sans-serif;
+		font-size: 30px;
+		color: #fa3030;
+		text-align: center;
+	}
+	.description{
+		width: 388px;
+		border-bottom: 3px solid #000;
+		border-top: 3px solid #000;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: principal,sans-serif;
+		text-align: center;
+	}
+	.item{
+		display: flex;
+		justify-content: space-between;
+	}
+	.item__1{
+		background-color: #454444;
+		padding: 20px;
+		font-size: 25px;
+		border-radius :100%;
+		color: #fff;
+		margin-left: 10px;
+		margin-right: 10px;
+
+	}
+.programas{
+	width: 1000px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+
+}
+	.programas__1{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.programas__2{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.programas__3{
+		margin-left: auto;
+		margin-right: auto;
+	}
+.ps{
+	margin-left: auto;
+	margin-right: auto;
+}
+	.ps__image{
+		background-color: #3d3d3c;
+		padding: 100px;
+	}
+	.ps__text{
+		font-family: principal, sans-serif;
+		font-size: 30px;
+		border-top: 3px #3d3d3c solid;
+		border-bottom: 3px #3d3d3c solid;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+		color: #3d3d3c;
+	}
+
+.ai{
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.ai__image{
+		background-color: #3d3d3c;
+		padding: 100px;
+	}
+	.ai__text{
+		font-family: principal, sans-serif;
+		font-size: 30px;
+		border-top: 3px #3d3d3c solid;
+		border-bottom: 3px #3d3d3c solid;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+		color: #3d3d3c;
+	}
+.sai{
+	margin-left: auto;
+	margin-right: auto;
+}
+	.sai__image{
+		background-color: #3d3d3c;
+		padding: 100px;
+	}
+	.sai__text{
+		font-family: principal, sans-serif;
+		font-size: 30px;
+		border-top: 3px #3d3d3c solid;
+		border-bottom: 3px #3d3d3c solid;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+		color: #3d3d3c;
+	}
+.galery1{
+	width: 1000px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+
+}
+.image{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fa2f2f;
+	height: 450px;
+}
+	.image__photo{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.image__text{
+		text-decoration: none;
+		color: #fff;
+		font-size: 30px;
+		font-family: principal, sans-serif;
+		padding-left: 80px;
+		padding-bottom: -80px;
+	}
+.galery2{
+	width: 1000px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.image2{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fa2f2f;
+	height: 450px;
+}
+	.image2__photo{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.image2__text{
+		text-decoration: none;
+		color: #fff;
+		font-size: 30px;
+		font-family: principal, sans-serif;
+		padding-left: 80px;
+		padding-bottom: -80px;
+	}
+
+.section2{
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+	.section2__name{
+		background-color: #fa3030;
+		color: #fff;
+	font-family: principal, sans-serif;
+	margin:0;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom:20px;
+
+	}
+.formulario{
+	background-image: url("../image/contacto.jpg");
+	
+	background-size: cover;
+	height: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+}
+.cform{
+	width: 800px;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+	.cform__field{
+		margin: 15px;
+		width: 270px;
+		padding: 10px;
+		border: none;
+		display: inline-block;
+		background-color: #fff;
+		font-family: inherit;
+		transition: background-color .8s;
+		border-radius: 5px;
+		text-transform: uppercase;
+		box-shadow: 1px 1px 1px #000;
+	}
+		.cform__field:focus{
+			background-color: #fff;
+			margin-right: auto;
+			margin-left: auto;
+			border-radius: 5px;
+		text-transform: uppercase;
+		box-shadow: 1px 1px 1px #000;
+		}
+		.cform__field--textarea{
+			width: 600px;
+			height: 100px;
+			border-radius: 5px;
+		text-transform: uppercase;
+		box-shadow: 1px 1px 1px #000;
+		}
+
+	.cform__btn{
+		border: none;
+		background-color: #fff;
+		color: #fa3030;
+		padding: 10px 20px;
+		font-size: 20px;
+		border-radius: 5px;
+		text-transform: uppercase;
+		box-shadow: 1px 1px 1px #000;
+		margin: auto;
+		display: block;
+		cursor: pointer;
+	}
+	.cform__btn:hover{
+		background-color: #fa3030;
+		color: #fff;
+	}
+.footer{
+	color: #fa3030;
+	display: flex;
+	width: 1000px;
+	justify-content: flex-end;
+	margin-left: auto;
+	margin-right: auto;
+}
